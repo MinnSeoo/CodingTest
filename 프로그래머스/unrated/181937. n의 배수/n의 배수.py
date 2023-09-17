@@ -1,9 +1,4 @@
 def solution(num, n):
-    answer = 0
-    
-    if num % n == 0:
-        answer = 1
-    else:
-        answer = 0
-    
-    return answer
+    return int(not(num % n))   
+
+# num % n 했을때 나누어 떨어지면 true 지만 not을 붙어서 false가 됨 -> 1를 반환!
