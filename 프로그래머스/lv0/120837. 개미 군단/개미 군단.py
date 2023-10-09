@@ -22,3 +22,16 @@ def solution(hp):
         Ant_count += Max_Ant 
 
     return Ant_count
+
+
+
+# 풀이2
+# def solution(hp):
+#     count = 0
+#     ants = [5, 3, 1]    
+
+#     for att in ants:
+#         count += hp // att
+#         hp %= att
+
+#     return count
