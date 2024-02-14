@@ -1,7 +1,6 @@
 def solution(t,p):
     new_list = []   
     list_t = list(t)
-    result = 0
     
     while(len(list_t) >= len(p)):
         tmp = ''
